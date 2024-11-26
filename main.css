@@ -65,6 +65,11 @@ aside {
 #intro-image {
     float: left;
     margin: 10px;
+    width: 80%; /* Make the image responsive */
+    max-width: 300px; /* Limit maximum image width */
+    border-radius: 10px; /* Slightly round the image corners */
+    margin: 20px auto; /* Add space above and below the image, center it */
+    display: block; /* Ensure the image is centered */
 }
 section{
   float: right;
